@@ -31,17 +31,28 @@ public:
     void merge_sort(int inferior, int superior);
 };
 
-
-
-template <typename T>
-void Arreglo<T>::set(int elemento) {
-    agregar(elemento);
+template<typename T>
+int Arreglo<T>::get_tamano()
+{
+    return _tamano;
 }
 
+template<typename T>
+void Arreglo<T>::set_tamano(int tam) {
+    this->_tamano = tam;
+}
+
+
 template <typename T>
-int *Arreglo<T>::get() {
+int* Arreglo<T>::get_datos() {
     return _datos;
 }
+
+template<typename T>
+void Arreglo<T>::set_datos(int dat) {
+    this->_datos = dat;
+}
+
 
 template <typename T>
 Arreglo<T>::Arreglo() {}
@@ -93,8 +104,4 @@ void Arreglo<T>::ordenar() {
     merge_sort(0, _tamano - 1);
 }
 
-template<typename T>
-int Arreglo<T>::tamano()
-{
-    return _tamano;
-}
+
