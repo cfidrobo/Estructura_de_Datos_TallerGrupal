@@ -32,6 +32,7 @@ template <typename T>
 void Arreglo<T>::set(int elemento) {
     agregar(elemento);
 }
+
 template <typename T>
 int *Arreglo<T>::get() {
     return _datos;
@@ -39,8 +40,8 @@ int *Arreglo<T>::get() {
 
 template <typename T>
 Arreglo<T>::Arreglo() {}
-template <typename T>
 
+template <typename T>
 void Arreglo<T>::agregar(int elemento) {
     if (_tamano == 0) {
         _datos = new T[1];
