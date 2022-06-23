@@ -26,5 +26,8 @@
     <ClInclude Include="..\..\..\..\..\source\repos\merge_sort\val.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Sorts.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

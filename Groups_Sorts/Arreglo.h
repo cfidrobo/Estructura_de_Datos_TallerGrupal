@@ -26,6 +26,8 @@ public:
     int tamano();
     void set(int);
     int *get();
+    void merge(int inicio, int medio, int fin);
+    void merge_sort(int inferior, int superior);
 };
 
 template <typename T>

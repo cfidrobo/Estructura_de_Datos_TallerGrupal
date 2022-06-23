@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\source\repos\merge_sort\val.h" />
     <ClInclude Include="Arreglo.h" />
+    <ClInclude Include="Sorts.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
