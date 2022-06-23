@@ -1,8 +1,8 @@
 /*      UNIVERSIDAD DE LAS FUERZAS ARMADAS
 *       Ordenamiento Mezcla Natural
 *       Autor: Cristian Idrobo, John Limones
-*       Fecha de creación: 22/06/2022
-*       Fecha de modificación: 22/06/2022
+*       Fecha de creaciÃ³n: 22/06/2022
+*       Fecha de modificaciÃ³n: 22/06/2022
 *       Grupo: 12
 *       Github: https://github.com/cfidrobo/Estructura_de_Datos_TallerGrupal
 */
@@ -95,7 +95,3 @@ int Arreglo<T>::tamano()
 {
     return _tamano;
 }
-
-
-
-
