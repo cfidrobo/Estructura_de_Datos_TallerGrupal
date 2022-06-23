@@ -1,8 +1,8 @@
 /*      UNIVERSIDAD DE LAS FUERZAS ARMADAS
 *       Ordenamiento Mezcla Natural
 *       Autor: Cristian Idrobo, John Limones
-*       Fecha de creación: 22/06/2022
-*       Fecha de modificación: 22/06/2022
+*       Fecha de creaciÃ³n: 22/06/2022
+*       Fecha de modificaciÃ³n: 22/06/2022
 *       Grupo: 12
 *       Github: https://github.com/cfidrobo/Estructura_de_Datos_TallerGrupal
 */
@@ -23,15 +23,21 @@ public:
     T obtener(int indice);
     void imprimir();
     void ordenar();
-    int tamano();
-    void set(int);
-    int *get();
+    int get_tamano();
+    void set_tamano(int);
+    int* get_datos();
+    void set_datos(int);
+    void merge(int inicio, int medio, int fin);
+    void merge_sort(int inferior, int superior);
 };
+
+
 
 template <typename T>
 void Arreglo<T>::set(int elemento) {
     agregar(elemento);
 }
+
 template <typename T>
 int *Arreglo<T>::get() {
     return _datos;
@@ -39,8 +45,8 @@ int *Arreglo<T>::get() {
 
 template <typename T>
 Arreglo<T>::Arreglo() {}
-template <typename T>
 
+template <typename T>
 void Arreglo<T>::agregar(int elemento) {
     if (_tamano == 0) {
         _datos = new T[1];
@@ -92,7 +98,3 @@ int Arreglo<T>::tamano()
 {
     return _tamano;
 }
-
-
-
-
