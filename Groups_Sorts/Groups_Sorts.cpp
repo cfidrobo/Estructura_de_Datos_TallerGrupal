@@ -71,19 +71,19 @@ int main()
             break;
 
         case 5:
-            // Lista de instrucciones de la opción 4                
+            // Lista de instrucciones de la opción 5                
 
             system("pause>nul"); // Pausa                
             break;
 
         case 6:
-            // Lista de instrucciones de la opción 4                
+            // Lista de instrucciones de la opción 6                
 
             system("pause>nul"); // Pausa                
             break;
 
         case 7:
-            // Lista de instrucciones de la opción 4                
+            // Lista de instrucciones de la opción 7                
 
             system("pause>nul"); // Pausa                
             break;
