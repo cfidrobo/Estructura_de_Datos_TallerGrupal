@@ -25,13 +25,12 @@ int main()
         system("cls");
 
         cout << "\n\nMenu de Opciones" << endl;
-        cout << "1. Sorts" << endl;
+        cout << "1. Intercambio" << endl;
         cout << "2. Burbuja" << endl;
         cout << "3. QuickSort" << endl;
         cout << "4. ShellSort" << endl;
-        cout << "5. Distribucion" << endl;
-        cout << "6. Radix" << endl;
-        cout << "7. Intercambio" << endl;
+        cout << "5. Ordenamiento por Distribucion" << endl;
+        cout << "6. Ordenamiento por Radix" << endl;
         cout << "0. SALIR" << endl;
 
         cout << "\nIngrese una opcion: ";
@@ -39,17 +38,7 @@ int main()
 
         switch (opcion) {
         case 1:
-            rewind(stdin);
-            do {
-                float n = val::leerNumero("Ingrese un numero: ");
-                arreglo.agregar(n);
-            } while (val::confirmar("Desea ingresar otro numero? "));
-
-            arreglo.imprimir();
-            arreglo.ordenar();
-            arreglo.imprimir();
-
-            system("pause>nul"); 
+            // Lista de instrucciones de la opción 1
             break;
 
         case 2:
@@ -65,7 +54,17 @@ int main()
             break;
 
         case 4:
-            // Lista de instrucciones de la opción 4                
+            rewind(stdin);
+            do {
+                float n = val::leerNumero("Ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea ingresar otro numero? "));
+
+            arreglo.imprimir();
+            arreglo.ordenar();
+            arreglo.imprimir();
+
+            system("pause>nul");                
 
             system("pause>nul"); // Pausa                
             break;
@@ -78,12 +77,6 @@ int main()
 
         case 6:
             // Lista de instrucciones de la opción 6                
-
-            system("pause>nul"); // Pausa                
-            break;
-
-        case 7:
-            // Lista de instrucciones de la opción 7                
 
             system("pause>nul"); // Pausa                
             break;
