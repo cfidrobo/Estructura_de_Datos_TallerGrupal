@@ -38,17 +38,17 @@ int main()
 
         switch (opcion) {
         case 1:
-            // Lista de instrucciones de la opción 1
+            // Lista de instrucciones Intercambio
             break;
 
         case 2:
-            // Lista de instrucciones de la opción 2                
+            // Lista de instrucciones Burbuja               
 
             system("pause>nul"); // Pausa
             break;
 
         case 3:
-            // Lista de instrucciones de la opción 3                
+            // Lista de instrucciones QuickSort             
 
             system("pause>nul"); // Pausa            
             break;
@@ -70,13 +70,13 @@ int main()
             break;
 
         case 5:
-            // Lista de instrucciones de la opción 5                
+            // Lista de instrucciones Ordenamiento por Distribucion             
 
             system("pause>nul"); // Pausa                
             break;
 
         case 6:
-            // Lista de instrucciones de la opción 6                
+            // Lista de instrucciones Ordenamiento por Radix              
 
             system("pause>nul"); // Pausa                
             break;
