@@ -39,6 +39,7 @@ int main()
         switch (opcion) {
         case 1:
             // Lista de instrucciones Intercambio
+            system("pause>nul"); // Pausa
             break;
 
         case 2:
@@ -62,9 +63,7 @@ int main()
 
             arreglo.imprimir();
             arreglo.ordenar();
-            arreglo.imprimir();
-
-            system("pause>nul");                
+            arreglo.imprimir();              
 
             system("pause>nul"); // Pausa                
             break;
