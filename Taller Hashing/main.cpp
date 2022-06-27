@@ -7,7 +7,7 @@ Autores: Todo el curso
 
 Fecha de Creacion:  26 de junio del 2022
 
-Version del programa: Version 1
+Version del programa: Version 2.0
 
 Materia: Estructuras de datos
 
