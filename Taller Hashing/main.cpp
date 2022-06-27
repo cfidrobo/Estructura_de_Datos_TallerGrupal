@@ -100,6 +100,6 @@ int menu()
 				<<"2. Buscar un elemento en la tabla"<<endl
 				<<"3. Eliminar un elemento en la tabla"<<endl
 				<<"0. Salir"<<endl
-				
+				<<"\nEscoja una opcion: ";
 			cin>>opc;
 		}
