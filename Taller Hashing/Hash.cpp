@@ -39,13 +39,13 @@ int Hash::busqueda(int valor){
     int clave = valor%tam;
     Hash* temp=cadena[clave];
     while(temp){
-        if(temp->datos==valor)
+        if(temp->datos==valor){
             return 1;
     }
     temp=temp->siguiente;
+    }
     return 0;
 }
-
 
 int  Hash::eliminar(int valor) {
 	int clave = valor % tam;
