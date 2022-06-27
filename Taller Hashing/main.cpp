@@ -7,13 +7,13 @@ Autores: Todo el curso
 
 Fecha de Creacion:  26 de junio del 2022
 
-Version del programa: Version 1.2
+Version del programa: Version 1
 
 Materia: Estructuras de datos
 
 Nrc: 4683
 */
-
+//Librerías
 #include <iostream>
 #include "Hash.h"
 #include "Validacion.h"
@@ -83,7 +83,7 @@ int main(int argc, char** argv) {
 		}
 		system("pause");
 	}while(opc!=0);
-}
+	
 <<<<<<< HEAD
  	/*
 	objt.ingreso(29);
