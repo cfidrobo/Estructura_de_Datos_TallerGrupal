@@ -108,13 +108,7 @@ int main(int argc, char** argv) {
 	}
 
 
-	if (objt.eliminar(0)) {
-		cout << "Despues de la eliminacion" << endl;
-		objt.impresion();
-	}
-	else {
-		cout << "Valor no encontrado" << endl;
-	}*/
+	
 
 	return 0;
 }
