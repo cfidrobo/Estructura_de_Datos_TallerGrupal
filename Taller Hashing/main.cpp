@@ -83,7 +83,7 @@ int main(int argc, char** argv) {
 		}
 		system("pause");
 	}while(opc!=0);
-	
+}
 <<<<<<< HEAD
  	/*
 	objt.ingreso(29);
