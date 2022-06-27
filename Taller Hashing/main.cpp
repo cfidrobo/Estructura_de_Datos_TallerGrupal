@@ -7,7 +7,7 @@ Autores: Todo el curso
 
 Fecha de Creacion:  26 de junio del 2022
 
-Version del programa: Version 2.0
+Version del programa: Version 2.5
 
 Materia: Estructuras de datos
 
@@ -84,16 +84,7 @@ int main(int argc, char** argv) {
 		}
 		system("pause");
 	}while(opc!=0);
-	
-
-
-
-
-
-
-
 }
-
 
 int menu()
 		{
@@ -105,4 +96,5 @@ int menu()
 				<<"0. Salir"<<endl
 				<<"\nEscoja una opcion: ";
 			cin>>opc;
+			return opc;
 		}
