@@ -15,7 +15,7 @@ Nrc: 4683
 */
 //Librerías
 #include <iostream>
-
+#include "Hash.h"
 #include "Validacion.h"
 
 
