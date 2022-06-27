@@ -83,6 +83,6 @@ void  Hash::impresion() {
 			cout <<  temp->datos << " -> ";
 			temp = temp->siguiente;
 		}
-		cout << "NULL \n";
+		cout << "NULL  "<<endl;
 	}
 }
