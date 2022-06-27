@@ -91,7 +91,7 @@ int main(int argc, char** argv) {
 	objt.ingreso(7);
 	objt.ingreso(29);
 
-	objt.impresion();
+	
 
 
 	if (objt.busqueda(10)) {
