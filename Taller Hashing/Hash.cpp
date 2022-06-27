@@ -14,16 +14,16 @@ void  Hash::ingreso(int valor) {
 	nuevoNodo->datos = valor;
 	nuevoNodo->siguiente = nullptr;
 
-	// calculo clave
+	// Calculo clave
 	int clave = valor % tam;
 
-	// comprueba si la cadena [clave] esta vacia
+	// Comprueba si la cadena [clave] esta vacia
 	if (cadena[clave] == nullptr) {
 		cadena[clave] = nuevoNodo;
-		// colision
+		//Ccolision
 	}
 	else {
-		// agregar el nodo al final de la cadena [clave]
+		// Agregar el nodo al final de la cadena [clave]
 		Hash* temp = cadena[clave];
 		while (temp->siguiente) {
 			temp = temp->siguiente;
