@@ -12,11 +12,10 @@ Version del programa: Version 1
 Materia: Estructuras de datos
 
 Nrc: 4683
-
 */
 //Librerías
 #include <iostream>
-#include "Hash.h"
+
 #include "Validacion.h"
 
 
@@ -91,7 +90,7 @@ int main(int argc, char** argv) {
 =======
  	
 >>>>>>> 888178a056853a4ca7ab6294ac672c04a5eb1ea4
-//Creacion del menu...
+//Creacion del menu.
 int menu()
 		{
 			int opc;
