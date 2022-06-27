@@ -84,8 +84,13 @@ int main(int argc, char** argv) {
 		system("pause");
 	}while(opc!=0);
 	
+<<<<<<< HEAD
+ 	/*
+	objt.ingreso(29);
+=======
  	
-
+>>>>>>> 888178a056853a4ca7ab6294ac672c04a5eb1ea4
+//Creacion del menu.
 int menu()
 		{
 			int opc;
