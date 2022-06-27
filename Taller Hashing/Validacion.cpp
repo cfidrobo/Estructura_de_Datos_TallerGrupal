@@ -24,7 +24,7 @@ char* Validacion::ingresarDato(char *msj){
 	dato[i]='\0';
 	return dato;
 }
-
+//validación para ingreso entero
 char* Validacion::ingresarDatoSinMsj(){
 	char *dato=new char[10],c;
 	int i=0;
