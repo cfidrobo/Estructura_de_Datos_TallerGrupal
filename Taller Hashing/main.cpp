@@ -115,5 +115,4 @@ int menu()
 				<<"0. Salir"<<endl
 				<<"\nEscoja una opcion: ";
 			cin>>opc;
-			return opc;	
 		}
