@@ -1,3 +1,11 @@
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
+Nombre del programa: Recursividad
+Autor: Esteban Chablay & Paul Mena
+Fecha de creacion: 26/06/2022
+Fecha de modificacion: 26/06/2022
+4683 ESTRUCTURA DE DATOS
+*/
+
 #include "Arreglo.h"
 
 
