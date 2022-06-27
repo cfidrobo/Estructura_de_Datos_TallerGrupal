@@ -84,27 +84,14 @@ int main(int argc, char** argv) {
 		system("pause");
 	}while(opc!=0);
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
- 	/*
-<<<<<<< HEAD
-	
 
 
-	
+
 
 	
 }
 
-=======
 
->>>>>>> 6c1fea0ed55453a5193c91bf8505083320d07899
-=======
->>>>>>> 69d2a82a10d37f3fd826fe579a744de184f0ed97
-=======
->>>>>>> 888178a056853a4ca7ab6294ac672c04a5eb1ea4
-//Creacion del menu.
->>>>>>> 6a4c46213657accd6ce1944807f7b0f24d75c8fe
 int menu()
 		{
 			int opc;
