@@ -1,3 +1,11 @@
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
+Nombre del programa: Ordenamiento externo - Mezcla Natural
+Autor: Esteban Chablay & Paul Mena
+Fecha de creacion: 27/06/2022
+Fecha de modificacion: 27/06/2022
+4683 ESTRUCTURA DE DATOS
+*/
+
 #include "Arreglo.h"
 
 template <typename T>
