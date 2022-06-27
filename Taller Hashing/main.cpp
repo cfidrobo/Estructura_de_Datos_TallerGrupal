@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
 	}while(opc!=0);
 	
  	/*
-	objt.ingreso(7);
+	
 	objt.ingreso(7);
 	objt.ingreso(29);
 
