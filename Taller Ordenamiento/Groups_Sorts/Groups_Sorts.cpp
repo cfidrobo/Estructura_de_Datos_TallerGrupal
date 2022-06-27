@@ -31,12 +31,15 @@ int main()
         cout << "4. ShellSort" << endl;
         cout << "5. Ordenamiento por Distribucion" << endl;
         cout << "6. Ordenamiento por Radix" << endl;
+        cout << "7. MezclaNatural" << endl;
         cout << "0. SALIR" << endl;
 
-        cout << "\nIngrese una opcion: ";
-        cin >> opcion;
-
+        int opcion = val::leerNumero("\nIngrese una opcion: ");
+ 
         switch (opcion) {
+            if (opcion > 7 || opcion < 0) {
+                repetir = true;
+            }
         case 1:
             // Lista de instrucciones Intercambio
             system("pause>nul"); // Pausa
@@ -55,16 +58,8 @@ int main()
             break;
 
         case 4:
-            rewind(stdin);
-            do {
-                float n = val::leerNumero("Ingrese un numero: ");
-                arreglo.agregar(n);
-            } while (val::confirmar("Desea ingresar otro numero? "));
-
-            arreglo.imprimir();
-            arreglo.ordenar();
-            arreglo.imprimir();              
-
+            // Lista de instrucciones ShellSort  
+            
             system("pause>nul"); // Pausa                
             break;
 
@@ -80,10 +75,25 @@ int main()
             system("pause>nul"); // Pausa                
             break;
 
+        case 7:
+
+            do {
+                float n = val::leerNumero("Ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea ingresar otro numero? "));
+
+            arreglo.imprimir();
+            arreglo.ordenar();
+            arreglo.imprimir();
+
+            system("pause>nul"); // Pausa                
+            break;
+
         case 0:
             repetir = false;
             break;
         }
+
     } while (repetir);
 
     return 0;

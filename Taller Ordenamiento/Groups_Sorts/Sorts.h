@@ -1,6 +1,5 @@
 #include "Arreglo.h"
 
-
 template <typename T>
 void Arreglo<T>::merge(int inicio, int medio, int fin) {
     int const subArregloUno = medio - inicio + 1;
