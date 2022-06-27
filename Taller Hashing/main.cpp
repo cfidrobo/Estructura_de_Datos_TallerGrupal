@@ -19,8 +19,6 @@ Nrc: 4683
 #include "Validacion.h"
 
 
-
-
 int menu();
 
 int main(int argc, char** argv) {
@@ -95,7 +93,6 @@ int menu()
 				<<"1. Ingresar elemento a la tabla"<<endl
 				<<"2. Buscar un elemento en la tabla"<<endl
 				<<"3. Eliminar un elemento en la tabla"<<endl
-				<<"4. Imprimir la tabla"<<endl
 				<<"0. Salir"<<endl
 				<<"\nEscoja una opcion: ";
 			cin>>opc;
