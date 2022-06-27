@@ -89,10 +89,6 @@ int main(int argc, char** argv) {
  	/*
 	objt.ingreso(7);
 	objt.ingreso(7);
-	objt.ingreso(3);
-	objt.ingreso(10);
-	objt.ingreso(4);
-	objt.ingreso(5);
 	objt.ingreso(29);
 	objt.ingreso(56);
 	objt.ingreso(78);
