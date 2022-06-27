@@ -23,6 +23,7 @@ int menu();
 
 int main(int argc, char** argv) {
 	
+	
 	Hash objt;
 	Validacion v;
 	objt.inicio();
@@ -47,7 +48,7 @@ int main(int argc, char** argv) {
         		dim=atoi(val);
         		cout<<endl;
 				if (objt.busqueda(dim)){
-					cout << "Valor encontrado" << endl;
+					cout << "El valor no ha sido encontrado" << endl;
 				}
 				else {
 					cout << "Valor no encontrado" << endl;
@@ -73,7 +74,7 @@ int main(int argc, char** argv) {
 				break;
 			}
 			case 0:{
-				cout<<"\nAdios, gracias por usar el programa :D "<<endl;
+				cout<<"\nAdios, Gracias por usar el programa :D "<<endl;
 				break;
 			}
 			default:{
@@ -88,7 +89,9 @@ int main(int argc, char** argv) {
 
 
 
-	
+
+
+
 }
 
 
@@ -96,7 +99,7 @@ int menu()
 		{
 			int opc;
 			cout<<"\n****************************MENU****************************\n"<<endl
-				<<"1. Ingresar elemento a la tabla"<<endl
+				<<"1. Ingresar un elemento a la tabla"<<endl
 				<<"2. Buscar un elemento en la tabla"<<endl
 				<<"3. Eliminar un elemento en la tabla"<<endl
 				<<"0. Salir"<<endl
