@@ -23,7 +23,7 @@ void  Hash::ingreso(int valor) {
 		//Ccolision
 	}
 	else {
-		// Agregar el nodo al final de la cadena [clave]
+		// Agregar el nodo al final de la cadena [clave]d
 		Hash* temp = cadena[clave];
 		while (temp->siguiente) {
 			temp = temp->siguiente;
