@@ -20,7 +20,7 @@ int main()
     Arreglo<int> arreglo;
 
     Vector vector;
-    Radix op;
+    Radix rd;
 
     int opcion, tamanio = 0;
 
@@ -126,17 +126,15 @@ int main()
             break;
 
         case 6:
-            
-        
+                  
             cout << "Ingrese el tamanio del arreglo: " << endl;
             cin >> tamanio;
-            op.generar_arreglo(vector, tamanio, 100);
+            rd.generar_arreglo(vector, tamanio, 100);
             cout << "--ARREGLO DESORDENADO--" << endl;
-            op.imprimir_arreglo(vector, tamanio);
+            rd.imprimir_arreglo(vector, tamanio);
             cout << "Ordenamiento por metodo radix" << endl;
-            op.radixsort(vector, tamanio);
-            op.imprimir_arreglo(vector, tamanio);
-
+            rd.radixsort(vector, tamanio);
+            rd.imprimir_arreglo(vector, tamanio);
 
             // Lista de instrucciones Ordenamiento por Radix              
             arreglo.encerar();
