@@ -130,9 +130,12 @@
     <ClCompile Include="Groups_Sorts.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\source\repos\merge_sort\val.h" />
     <ClInclude Include="Arreglo.h" />
+    <ClInclude Include="Busqueda.h" />
+    <ClInclude Include="Ordenamiento.h" />
+    <ClInclude Include="OrdenamietoExterno.h" />
     <ClInclude Include="Sorts.h" />
+    <ClInclude Include="val.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

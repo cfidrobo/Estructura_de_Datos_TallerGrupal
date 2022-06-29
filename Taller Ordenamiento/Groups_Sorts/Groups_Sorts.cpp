@@ -45,8 +45,9 @@ int main()
         case 1:
             // Lista de instrucciones Intercambio
             system("pause>nul"); // Pausa
+            fflush(stdin);
             break;
-
+            
         case 2:
             rewind(stdin);
             do {
@@ -59,12 +60,14 @@ int main()
             arreglo.imprimir();        
 
             system("pause>nul"); // Pausa
+            fflush(stdin);
             break;
 
         case 3:
             // Lista de instrucciones QuickSort             
 
-            system("pause>nul"); // Pausa            
+            system("pause>nul"); // Pausa     
+            fflush(stdin);
             break;
 
         case 4:
@@ -76,24 +79,27 @@ int main()
             } while (val::confirmar("Desea agregar otro numero?"));
 
             arreglo.imprimir();
-            arreglo.ordenarShellSort();
+            arreglo.ordenarShell();
             arreglo.imprimir();        
 
             system("pause>nul"); // Pausa
             break;
-            system("pause>nul"); // Pausa                
+            system("pause>nul"); // Pausa  
+            fflush(stdin);
             break;
 
         case 5:
             // Lista de instrucciones Ordenamiento por Distribucion             
 
-            system("pause>nul"); // Pausa                
+            system("pause>nul"); // Pausa    
+            fflush(stdin);
             break;
 
         case 6:
             // Lista de instrucciones Ordenamiento por Radix              
 
-            system("pause>nul"); // Pausa                
+            system("pause>nul"); // Pausa  
+            fflush(stdin);
             break;
 
         case 7:
@@ -107,7 +113,8 @@ int main()
             arreglo.ordenar();
             arreglo.imprimir();
 
-            system("pause>nul"); // Pausa                
+            system("pause>nul"); // Pausa     
+            fflush(stdin);
             break;
 
         case 0:

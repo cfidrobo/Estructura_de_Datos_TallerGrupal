@@ -23,10 +23,19 @@
     <ClInclude Include="Arreglo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\source\repos\merge_sort\val.h">
+    <ClInclude Include="Sorts.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Sorts.h">
+    <ClInclude Include="Busqueda.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ordenamiento.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="OrdenamietoExterno.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="val.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

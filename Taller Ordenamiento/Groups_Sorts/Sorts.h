@@ -82,19 +82,19 @@ void Arreglo<T>::ordenarBurbuja() {
 }
 
 template <class T>
-void Arreglo<T>::ShellSort() {
-    for (int gap = T.get_tamano / 2; gap > 0; gap /= 2)
+void Arreglo<T>::ordenarShell() {
+    for (int gap = _tamano / 2; gap > 0; gap /= 2)
 	{
-		for (int i = gap; i < T.get_tamano; i += 1)
+		for (int i = gap; i < _tamano; i += 1)
 		{
-			int temp = *(T + i);
+			int temp = *(_datos + i);
 
 			int j;
-			for (j = i; j >= gap && *(T + (j - gap)) > temp; j -= gap) {
-				*(T + j) = *(T + (j - gap));
+			for (j = i; j >= gap && *(_datos + (j - gap)) > temp; j -= gap) {
+				*(_datos + j) = *(_datos + (j - gap));
 			}
 
-			*(T + j) = temp;
+			*(_datos + j) = temp;
 		}
 	}
 
