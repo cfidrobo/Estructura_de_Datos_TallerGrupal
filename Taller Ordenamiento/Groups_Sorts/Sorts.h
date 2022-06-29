@@ -97,16 +97,5 @@ void Arreglo<T>::ShellSort() {
 			*(T + j) = temp;
 		}
 	}
-    /*int aux, vueltas = 0;
-    for (int i = 0; i < _tamano; i++) {
-        for (int j = 0; j < _tamano - 1; j++) {
-            if (*(_datos + j) > *(_datos + j + 1)) {
-                aux = *(_datos + j);
-                *(_datos + j) = *(_datos + j + 1);
-                *(_datos + j + 1) = aux;
-            }
-        }
-        vueltas++;
-    }
-    std::cout << "\nEl numero de vueltas realizadas es: " << vueltas << "\n";*/
+
 }
