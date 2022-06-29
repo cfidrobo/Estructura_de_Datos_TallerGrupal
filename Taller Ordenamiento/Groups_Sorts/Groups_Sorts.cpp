@@ -104,9 +104,6 @@ int main()
             arreglo.ordenarShell();
             arreglo.imprimir();    
             
-
-            system("pause>nul"); // Pausa
-            break;
             system("pause>nul"); // Pausa  
             fflush(stdin);
             break;
