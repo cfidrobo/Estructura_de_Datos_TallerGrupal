@@ -162,13 +162,12 @@ void Arreglo<T>::ordenarIntercambio() {
 template <class T>
 void Arreglo<T>::ordenarCounting(){
 	int salida[_tamano+1];
-	//int max = rangoMaximo(_datos, _tamano);
 	int max= *(_datos+0);
 	for(int i=1; i<tam; i++){
 		if(*(vector+i) > max)
 			max = *(vector+i);
 	}
-	int contador[max+1]; //crear arreglo contador (max+1 número de elementos)
+	int contador[max+1]; 
 	for(int i = 0; i <_tamano; i++){
 		//contador[vector[i]]++; 
 		contador *(_datos+1)++;
@@ -178,12 +177,12 @@ void Arreglo<T>::ordenarCounting(){
 		contador *(_datos+1)+=contador *(_datos-1);
 	}
 	for(int i = tam-1; i>=0; i--) {
-		salida[contador[vector[i]]-1] = vector[i];
+		//salida[contador[vector[i]]-1] = vector[i];
 		salida*(contador *(_datos+1)-1)= *(_datos);
 	contador *(_datos) --;
 	}
 	for(int i = 0; i<_tamano; i++){
-		vector[i] = salida[i]; 
+		//vector[i] = salida[i]; 
 		vector*(_datos+i)= salida *(_datos+i)
 	}
 
