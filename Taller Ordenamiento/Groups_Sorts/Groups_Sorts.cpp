@@ -80,7 +80,8 @@ int main()
 
             arreglo.imprimir();
             arreglo.ordenarShell();
-            arreglo.imprimir();        
+            arreglo.imprimir();    
+            arreglo.encerar();
 
             system("pause>nul"); // Pausa
             break;
