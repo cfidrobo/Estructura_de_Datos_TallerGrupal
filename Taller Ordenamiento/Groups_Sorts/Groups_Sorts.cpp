@@ -64,9 +64,20 @@ int main()
             break;
 
         case 3:
+        
             // Lista de instrucciones QuickSort             
 
-            system("pause>nul"); // Pausa     
+            rewind(stdin);
+            do {
+                float n = val::leerNumero("ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea agregar otro numero?"));
+
+            arreglo.imprimir();
+            arreglo.quicksort();
+            arreglo.imprimir();
+
+            system("pause>nul"); // Pausa
             fflush(stdin);
             break;
 

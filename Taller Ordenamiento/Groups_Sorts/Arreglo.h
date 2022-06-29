@@ -30,8 +30,12 @@ public:
     void set_tamano(int);
     int* get_datos();
     void set_datos(int);
+    void intercambioQ(int& x, int& y);
+    void quicksort();
+    void quicksortImpl(int primero, int ultimo);
     void merge(int inicio, int medio, int fin);
     void merge_sort(int inferior, int superior);
+
 };
 
 template<typename T>
