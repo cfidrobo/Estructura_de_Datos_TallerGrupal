@@ -30,7 +30,7 @@ int main()
         cout << "\t\t [2] Burbuja" << endl;
         cout << "\t\t [3] QuickSort" << endl;
         cout << "\t\t [4] ShellSort" << endl;
-        cout << "\t\t [5] Ordenamiento por Distribucion" << endl;
+        cout << "\t\t [5] Counting Sort" << endl;
         cout << "\t\t [6] Ordenamiento por Radix" << endl;
         cout << "\t\t [7] Mezcla Natural" << endl;
         cout << "\t\t [0] SALIR" << endl;
