@@ -64,3 +64,19 @@ void Arreglo<T>::merge_sort(int inferior, int superior) {
     merge_sort(medio + 1, superior);
     merge(inferior, medio, superior);
 }
+
+template <class T>
+void Arreglo<T>::ordenarBurbuja() {
+    int aux, vueltas = 0;
+    for (int i = 0; i < _tamano; i++) {
+        for (int j = 0; j < _tamano - 1; j++) {
+            if (*(_datos + j) > *(_datos + j + 1)) {
+                aux = *(_datos + j);
+                *(_datos + j) = *(_datos + j + 1);
+                *(_datos + j + 1) = aux;
+            }
+        }
+        vueltas++;
+    }
+    std::cout << "\nEl numero de vueltas realizadas es: " << vueltas << "\n";
+}

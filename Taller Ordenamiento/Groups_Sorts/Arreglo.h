@@ -23,6 +23,7 @@ public:
     T obtener(int indice);
     void imprimir();
     void ordenar();
+    void ordenarBurbuja();
     int get_tamano();
     void set_tamano(int);
     int* get_datos();

@@ -48,7 +48,15 @@ int main()
             break;
 
         case 2:
-            // Lista de instrucciones Burbuja               
+            rewind(stdin);
+            do {
+                float n = val::leerNumero("ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea agregar otro numero?"));
+
+            arreglo.imprimir();
+            arreglo.ordenarBurbuja();
+            arreglo.imprimir();        
 
             system("pause>nul"); // Pausa
             break;
