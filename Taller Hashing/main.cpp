@@ -93,6 +93,7 @@ int menu()
 				<<"1. Ingresar un elemento a la tabla"<<endl
 				<<"2. Buscar un elemento en la tabla"<<endl
 				<<"3. Eliminar un elemento en la tabla"<<endl
+				<<"4. Imprimir tabla"<<endl
 				<<"0. Salir"<<endl
 				<<"\nEscoja una opcion: ";
 			cin>>opc;

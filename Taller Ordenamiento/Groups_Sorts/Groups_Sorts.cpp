@@ -23,18 +23,20 @@ int main()
 
     do {
         system("cls");
-
-        cout << "\n\nMenu de Opciones" << endl;
-        cout << "1. Intercambio" << endl;
-        cout << "2. Burbuja" << endl;
-        cout << "3. QuickSort" << endl;
-        cout << "4. ShellSort" << endl;
-        cout << "5. Ordenamiento por Distribucion" << endl;
-        cout << "6. Ordenamiento por Radix" << endl;
-        cout << "7. MezclaNatural" << endl;
-        cout << "0. SALIR" << endl;
-
-        int opcion = val::leerNumero("\nIngrese una opcion: ");
+        printf("\t\t===================================\n");
+        printf("\t\t\tMENU DE OPCIONES\n");
+        printf("\t\t===================================\n");
+        cout << "\t\t [1] Intercambio" << endl;
+        cout << "\t\t [2] Burbuja" << endl;
+        cout << "\t\t [3] QuickSort" << endl;
+        cout << "\t\t [4] ShellSort" << endl;
+        cout << "\t\t [5] Ordenamiento por Distribucion" << endl;
+        cout << "\t\t [6] Ordenamiento por Radix" << endl;
+        cout << "\t\t [7] Mezcla Natural" << endl;
+        cout << "\t\t [0] SALIR" << endl;
+        printf("\t\t===================================\n");
+        int opcion = val::leerNumero("\n\t\tIngrese una opcion [0-7]: ");
+        printf("\n\t\t===================================\n");
  
         switch (opcion) {
             if (opcion > 7 || opcion < 0) {
