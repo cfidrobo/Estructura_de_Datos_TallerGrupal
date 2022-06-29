@@ -44,6 +44,7 @@ int main()
             }
         case 1:
             rewind(stdin);
+             arreglo.encerar();
             do {
                 float n = val::leerNumero("ingrese un numero: ");
                 arreglo.agregar(n);
@@ -78,6 +79,7 @@ int main()
             // Lista de instrucciones QuickSort             
 
             rewind(stdin);
+            arreglo.encerar();
             do {
                 float n = val::leerNumero("ingrese un numero: ");
                 arreglo.agregar(n);
@@ -110,14 +112,14 @@ int main()
 
         case 5:
             // Lista de instrucciones Ordenamiento por Distribucion             
-
+            arreglo.encerar();
             system("pause>nul"); // Pausa    
             fflush(stdin);
             break;
 
         case 6:
             // Lista de instrucciones Ordenamiento por Radix              
-
+             arreglo.encerar();
             system("pause>nul"); // Pausa  
             fflush(stdin);
             break;
