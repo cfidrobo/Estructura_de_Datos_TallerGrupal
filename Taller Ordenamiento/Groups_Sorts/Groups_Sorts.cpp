@@ -1,9 +1,9 @@
 /*      UNIVERSIDAD DE LAS FUERZAS ARMADAS
 *       Ordenamiento Mezcla Natural
-*       Autor: Cantuña David, Moyano Mathius
-*       Fecha de creación: 22/06/2022
-*       Fecha de modificación: 23/06/2022
-*       Grupo: 6
+*       Autor: NRC 4683
+*       Fecha de creación: 21/06/2022
+*       Fecha de modificación: 29/06/2022
+*       Grupo: Todo el curso
 *       Github: https://github.com/cfidrobo/Estructura_de_Datos_TallerGrupal
 */
 
@@ -11,6 +11,7 @@
 #include <cstdlib>
 #include "Sorts.h"
 #include "val.h"
+#include "Radix.h"
 
 using namespace std;
 
@@ -18,7 +19,14 @@ int main()
 {
     Arreglo<int> arreglo;
 
-    int opcion;
+    Vector vector;
+    Radix op;
+
+    int opcion, tamanio = 0;
+
+    vector.set_arreglo(new int[tamanio]);
+
+    
     bool repetir = true;
 
     do {
@@ -118,8 +126,20 @@ int main()
             break;
 
         case 6:
+            
+        
+            cout << "Ingrese el tamanio del arreglo: " << endl;
+            cin >> tamanio;
+            op.generar_arreglo(vector, tamanio, 100);
+            cout << "--ARREGLO DESORDENADO--" << endl;
+            op.imprimir_arreglo(vector, tamanio);
+            cout << "Ordenamiento por metodo radix" << endl;
+            op.radixsort(vector, tamanio);
+            op.imprimir_arreglo(vector, tamanio);
+
+
             // Lista de instrucciones Ordenamiento por Radix              
-             arreglo.encerar();
+            arreglo.encerar();
             system("pause>nul"); // Pausa  
             fflush(stdin);
             break;

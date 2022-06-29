@@ -128,14 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Groups_Sorts.cpp" />
+    <ClCompile Include="Radix.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglo.h" />
     <ClInclude Include="Busqueda.h" />
     <ClInclude Include="Ordenamiento.h" />
     <ClInclude Include="OrdenamietoExterno.h" />
+    <ClInclude Include="Radix.h" />
     <ClInclude Include="Sorts.h" />
     <ClInclude Include="val.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
