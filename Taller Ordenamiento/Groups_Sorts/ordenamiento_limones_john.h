@@ -27,13 +27,13 @@ public:
         {
             for (int i = gap; i < N; i += 1)
             {
-                int temp = arr[i];
+                int temp = *(arr + i);
 
                 int j;
-                for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
-                    arr[j] = arr[j - gap];
+                for (j = i; j >= gap && *(arr + j - gap) > temp; j -= gap)
+                    *(arr + j) = *(arr + j - gap);
 
-                arr[j] = temp;
+                *(arr + j) = temp;
             }
         }
     }
