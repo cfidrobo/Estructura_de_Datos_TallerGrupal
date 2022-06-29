@@ -22,6 +22,7 @@ public:
     void agregar(int elemento);
     T obtener(int indice);
     void imprimir();
+    void encerar();
     void ordenar();
     void ordenarBurbuja();
     void ordenarShell();
@@ -79,11 +80,22 @@ void Arreglo<T>::agregar(int elemento) {
     _tamano++;
 }
 
+
+
+
+
 template<typename T>
 T Arreglo<T>::obtener(int indice)
 {
     int valor = *(_datos + indice);
     return valor;
+}
+
+template<typename T>
+void Arreglo::encerar(){
+    for(int i =0; i <_tamano; i++){
+		*(_datos+1)=0;
+	}
 }
 
 template <typename T>
