@@ -73,6 +73,7 @@ int main()
         case 4:
             // Lista de instrucciones ShellSort  
             rewind(stdin);
+            arreglo.encerar();
             do {
                 float n = val::leerNumero("ingrese un numero: ");
                 arreglo.agregar(n);
@@ -81,7 +82,7 @@ int main()
             arreglo.imprimir();
             arreglo.ordenarShell();
             arreglo.imprimir();    
-            arreglo.encerar();
+            
 
             system("pause>nul"); // Pausa
             break;
