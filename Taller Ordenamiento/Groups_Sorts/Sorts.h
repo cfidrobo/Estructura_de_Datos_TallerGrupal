@@ -80,3 +80,33 @@ void Arreglo<T>::ordenarBurbuja() {
     }
     std::cout << "\nEl numero de vueltas realizadas es: " << vueltas << "\n";
 }
+
+template <class T>
+void Arreglo<T>::ShellSort() {
+    for (int gap = T.get_tamano / 2; gap > 0; gap /= 2)
+	{
+		for (int i = gap; i < T.get_tamano; i += 1)
+		{
+			int temp = *(T + i);
+
+			int j;
+			for (j = i; j >= gap && *(T + (j - gap)) > temp; j -= gap) {
+				*(T + j) = *(T + (j - gap));
+			}
+
+			*(T + j) = temp;
+		}
+	}
+    /*int aux, vueltas = 0;
+    for (int i = 0; i < _tamano; i++) {
+        for (int j = 0; j < _tamano - 1; j++) {
+            if (*(_datos + j) > *(_datos + j + 1)) {
+                aux = *(_datos + j);
+                *(_datos + j) = *(_datos + j + 1);
+                *(_datos + j + 1) = aux;
+            }
+        }
+        vueltas++;
+    }
+    std::cout << "\nEl numero de vueltas realizadas es: " << vueltas << "\n";*/
+}

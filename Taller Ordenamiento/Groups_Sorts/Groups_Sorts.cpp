@@ -69,7 +69,18 @@ int main()
 
         case 4:
             // Lista de instrucciones ShellSort  
-            
+            rewind(stdin);
+            do {
+                float n = val::leerNumero("ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea agregar otro numero?"));
+
+            arreglo.imprimir();
+            arreglo.ordenarShellSort();
+            arreglo.imprimir();        
+
+            system("pause>nul"); // Pausa
+            break;
             system("pause>nul"); // Pausa                
             break;
 
