@@ -27,6 +27,7 @@ public:
     void ordenarIntercambio();
     void ordenarBurbuja();
     void ordenarShell();
+    //void ordenarCounting();
     int get_tamano();
     void set_tamano(int);
     int* get_datos();

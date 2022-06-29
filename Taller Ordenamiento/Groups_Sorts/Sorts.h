@@ -158,3 +158,34 @@ void Arreglo<T>::ordenarIntercambio() {
     }
     
 }
+/*
+template <class T>
+void Arreglo<T>::ordenarCounting(){
+	int salida[_tamano+1];
+	//int max = rangoMaximo(_datos, _tamano);
+	int max= *(_datos+0);
+	for(int i=1; i<tam; i++){
+		if(*(vector+i) > max)
+			max = *(vector+i);
+	}
+	int contador[max+1]; //crear arreglo contador (max+1 número de elementos)
+	for(int i = 0; i <_tamano; i++){
+		//contador[vector[i]]++; //aumentar el contador de números en el arreglo de contador
+		contador *(_datos+1)++;
+	}
+	for(int i = 1; i<=max; i++){
+		//contador[i] += contador[i-1]; //encontrar la frecuencia conla que se repiten en el arreglo
+		contador *(_datos+1)+=contador *(_datos-1);
+	}
+	for(int i = tam-1; i>=0; i--) {
+		salida[contador[vector[i]]-1] = vector[i];
+		salida*(contador *(_datos+1)-1)= *(_datos);
+	contador *(_datos) --; //decremento de los contadores de losmismos numeros
+	}
+	for(int i = 0; i<_tamano; i++){
+		vector[i] = salida[i]; //actualizar el arreglo enviado porparámetro
+		vector*(_datos+i)= salida *(_datos+i)
+	}
+
+}
+*/
