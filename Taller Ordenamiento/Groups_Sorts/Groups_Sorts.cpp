@@ -50,6 +50,7 @@ int main()
             
         case 2:
             rewind(stdin);
+            arreglo.encerar();
             do {
                 float n = val::leerNumero("ingrese un numero: ");
                 arreglo.agregar(n);
@@ -116,7 +117,7 @@ int main()
             break;
 
         case 7:
-
+            arreglo.encerar();
             do {
                 float n = val::leerNumero("Ingrese un numero: ");
                 arreglo.agregar(n);

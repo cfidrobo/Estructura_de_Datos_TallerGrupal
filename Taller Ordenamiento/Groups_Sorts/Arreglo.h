@@ -66,10 +66,17 @@ Arreglo<T>::Arreglo() {}
 
 template <typename T>
 void Arreglo<T>::agregar(int elemento) {
+    int cont = 0;
+    for (int i = 0; i < _tamano; i++) {
+        if (*(_datos + i) == 0)
+            cont++;
+    }
     if (_tamano == 0) {
         _datos = new T[1];
     }
-    else {
+    else if (cont == _tamano)
+        _tamano = 0;
+    else  {
         T* nuevo = new T[_tamano + 1];
 
         for (int i = 0; i < _tamano; i++) {
@@ -97,7 +104,9 @@ T Arreglo<T>::obtener(int indice)
 
 template<typename T>
 void Arreglo<T>::encerar(){
-    delete[] _datos;
+    for(int i =0; i <_tamano; i++){
+		*(_datos+i)=NULL;
+	}
 }
 
 template <typename T>
