@@ -43,7 +43,16 @@ int main()
                 repetir = true;
             }
         case 1:
-            // Lista de instrucciones Intercambio
+            rewind(stdin);
+            do {
+                float n = val::leerNumero("ingrese un numero: ");
+                arreglo.agregar(n);
+            } while (val::confirmar("Desea agregar otro numero?"));
+
+            arreglo.imprimir();
+            arreglo.ordenarIntercambio();
+            arreglo.imprimir();        
+
             system("pause>nul"); // Pausa
             fflush(stdin);
             break;

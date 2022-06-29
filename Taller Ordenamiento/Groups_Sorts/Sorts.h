@@ -142,3 +142,19 @@ void Arreglo<T>::quicksortImpl(int primero, int ultimo) {
         quicksortImpl(i, ultimo);
     }
 }
+
+template <class T>
+void Arreglo<T>::ordenarIntercambio() {
+    int aux;
+    for (int i = 0; i < _tamano -2; i++) {
+        for (int j = i+1; j < _tamano - 1; j++) {
+            if (*(_datos + i) > *(_datos + j + 1)) {
+                aux = *(_datos + i);
+                *(_datos + i) = *(_datos + j + 1);
+                *(_datos + j + 1) = aux;
+            }
+        }
+      
+    }
+    
+}

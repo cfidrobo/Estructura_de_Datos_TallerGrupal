@@ -24,6 +24,7 @@ public:
     void imprimir();
     void encerar();
     void ordenar();
+    void ordenarIntercambio();
     void ordenarBurbuja();
     void ordenarShell();
     int get_tamano();
