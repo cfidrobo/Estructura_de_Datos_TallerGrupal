@@ -92,7 +92,7 @@ T Arreglo<T>::obtener(int indice)
 }
 
 template<typename T>
-void Arreglo::encerar(){
+void Arreglo<T>::encerar(){
     for(int i =0; i <_tamano; i++){
 		*(_datos+1)=0;
 	}
