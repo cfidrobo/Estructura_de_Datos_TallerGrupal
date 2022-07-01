@@ -84,29 +84,8 @@ int main(int argc, char** argv) {
 		}
 		system("pause");
 	}while(opc!=0);
-<<<<<<< HEAD
-	
- 	/*
-	
-	objt.ingreso(7);
-	objt.ingreso(29);
 
-	
-
-
-	if (objt.busqueda(10)) {
-		cout << "Valor encontrado" << endl;
-	}
-	else {
-		cout << "Valor no encontrado" << endl;
-	}
-
-
-	
-
-	return 0;
-=======
->>>>>>> 0c8f87966a8b5dd3a976023049cafccf4558d452
+    return 0;
 }
 
 int menu()
